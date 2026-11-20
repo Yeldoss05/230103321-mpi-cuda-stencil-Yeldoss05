@@ -1,0 +1,52 @@
+{
+  "GITHUB_USERNAME": "Yeldoss05",
+  "gpu_uuid": "GPU-0784f1a6-aee5-f449-4353-cdaeaaee543b",
+  "instance_seed": "15533858761280821923",
+  "mpi_ranks": 4,
+  "grid_dims": [
+    2,
+    2
+  ],
+  "steps": 400,
+  "k_max": 0.23998612436510708,
+  "dx": 0.001949317738791423,
+  "dt_max": 3.95839515390685e-06,
+  "dt": 1.58335806156274e-06,
+  "serialized_ms": 11700.03473099996,
+  "overlapped_ms": 3706.005518999973,
+  "parity_max_diff": 0.0,
+  "ptx_audit_passed": true,
+  "ptx_audit": {
+    "passed": true,
+    "st_shared_count": 32,
+    "ld_shared_count": 10,
+    "bar_sync_count": 1
+  },
+  "energy_trace": [
+    {
+      "step": 0,
+      "energy": 0.08005943753460704,
+      "l2_residual": 0.0
+    },
+    {
+      "step": 100,
+      "energy": 0.07998238958378057,
+      "l2_residual": 5.197381636511957
+    },
+    {
+      "step": 200,
+      "energy": 0.07993824938380213,
+      "l2_residual": 4.8974798469367675
+    },
+    {
+      "step": 300,
+      "energy": 0.07990066614542228,
+      "l2_residual": 4.785678716809305
+    },
+    {
+      "step": 400,
+      "energy": 0.07986623925497732,
+      "l2_residual": 4.71135458708544
+    }
+  ]
+}
